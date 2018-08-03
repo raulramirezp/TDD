@@ -106,7 +106,7 @@ public class OrderTest {
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
         Collections.sort(list);
-        assertEquals(list, listNumber.sort(toSort) );
+        assertEquals(list, listNumber.bubbleSort(toSort) );
     }
 
 }

@@ -34,11 +34,6 @@ public class Order {
         return toSort;
     }
 
-    public ArrayList<Integer> sort(ArrayList<Integer> list) {
-        Collections.sort(list);
-        ArrayList<Integer> sortedList = new ArrayList<>(list);
-        return sortedList;
-    }
 
     public static void main(String[] args) {
 
