@@ -18,20 +18,33 @@ public class Order {
     }
 
 
-    public static ArrayList<Integer> bubbleSort(ArrayList<Integer> toSort) {
-       if( toSort == null)
-           return null;
-        int tmp = 0;
-        for (int i = 0; i < toSort.size(); i++)
-            for (int j = 0; j < toSort.size() - 1; j++) {
-                if (toSort.get(j) > toSort.get(j + 1)) {
-                    tmp = toSort.get(j + 1);
-                    toSort.set(j + 1, toSort.get(j));
-                    toSort.set(j, tmp);
-                }
+    public static void sort(ArrayList<Integer> list) {
+        sort(list, 0, list.size() - 1);
+    }
 
+    public static void sort(ArrayList<Integer> list, int from, int to) {
+        if (from < to) {
+            int pivot = from;
+            int left = from + 1;
+            int right = to;
+            int pivotValue = list.get(pivot);
+            while (left <= right) {
+                // left <= to -> limit protection
+                while (left <= to && pivotValue >= list.get(left)) {
+                    left++;
+                }
+                // right > from -> limit protection
+                while (right > from && pivotValue < list.get(right)) {
+                    right--;
+                }
+                if (left < right) {
+                    Collections.swap(list, left, right);
+                }
             }
-        return toSort;
+            Collections.swap(list, pivot, left - 1);
+            sort(list, from, right - 1);
+            sort(list, right + 1, to);   
+        }
     }
 
 

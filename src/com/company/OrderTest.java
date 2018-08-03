@@ -24,7 +24,8 @@ public class OrderTest {
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
         Collections.sort(list);
-        assertEquals(list, listNumber.bubbleSort(toSort) );
+        listNumber.sort(toSort);
+        assertEquals(list, toSort );
     }
 
     @Test
@@ -38,7 +39,8 @@ public class OrderTest {
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
         Collections.sort(list);
-        assertEquals(list, listNumber.bubbleSort(toSort) );
+        listNumber.sort(toSort);
+        assertEquals(list, toSort );
     }
 
     @Test
@@ -53,7 +55,8 @@ public class OrderTest {
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
         Collections.sort(list);
-        assertEquals(list, listNumber.bubbleSort(toSort) );
+        listNumber.sort(toSort);
+        assertEquals(list, toSort );
     }
 
     @Test
@@ -61,14 +64,15 @@ public class OrderTest {
         this.listNumber = new Order();
         list = new ArrayList<Integer>();
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
-        assertEquals(list, listNumber.bubbleSort(toSort) );
+        listNumber.sort(toSort);
+        assertEquals(list, toSort );
     }
 
     @Test
     public void nullArray(){
         this.listNumber = new Order();
         ArrayList<Integer> toSort = null;
-        assertEquals(null, listNumber.bubbleSort(toSort) );
+        assertEquals(null, toSort );
     }
 
     @Test
@@ -78,7 +82,8 @@ public class OrderTest {
         list = new ArrayList<>();
         list.add(1);
         ArrayList<Integer> toSort = new ArrayList<>(list);
-        assertEquals(list, listNumber.bubbleSort(toSort) );
+        listNumber.sort(toSort);
+        assertEquals(list, toSort );
     }
 
 
@@ -92,7 +97,8 @@ public class OrderTest {
             list.add(i);
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
-        assertEquals(list, listNumber.bubbleSort(toSort) );
+        listNumber.sort(toSort);
+        assertEquals(list, toSort );
     }
 
     @Test
@@ -106,7 +112,8 @@ public class OrderTest {
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
         Collections.sort(list);
-        assertEquals(list, listNumber.bubbleSort(toSort) );
+        listNumber.sort(toSort);
+        assertEquals(list, toSort );
     }
 
 }

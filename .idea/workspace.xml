@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/company/OrderTest.java" line="77" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/company/OrderTest.java" line="81" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fdcf7c8-c509-4f7e-8066-612ebf931e61" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OrderTest.java" afterDir="false" />
     </list>
@@ -19,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrderTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+            <state relative-caret-position="323">
+              <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#585#594#0" expanded="true" />
@@ -37,13 +36,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="194">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +68,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Order.java" />
         <option value="$PROJECT_DIR$/src/com/company/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Order.java" />
       </list>
     </option>
   </component>
@@ -226,20 +227,11 @@
       <option name="presentableId" value="Default" />
       <updated>1533242474310</updated>
       <workItem from="1533242479497" duration="6264000" />
-      <workItem from="1533321899514" duration="6231000" />
+      <workItem from="1533321899514" duration="6900000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_bubbleSort - 2018.08.02 at 16h 12m 49s.xml">
-      <configuration name="MainTest.bubbleSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2018.08.03 at 13h 52m 20s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest - 2018.08.03 at 13h 52m 41s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderTest - 2018.08.03 at 13h 53m 42s.xml">
       <configuration name="OrderTest" configurationId="JUnit" />
     </history-entry>
@@ -261,9 +253,18 @@
     <history-entry file="OrderTest - 2018.08.03 at 15h 27m 35s.xml">
       <configuration name="OrderTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderTest - 2018.08.03 at 15h 31m 48s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2018.08.03 at 15h 40m 51s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2018.08.03 at 15h 42m 09s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12495000" />
+    <option name="totallyTimeSpent" value="13164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -341,20 +342,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+        <state relative-caret-position="323">
+          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#585#594#0" expanded="true" />
@@ -363,6 +354,18 @@
             <element signature="e#1735#1744#0" expanded="true" />
             <element signature="e#2865#2874#0" expanded="true" />
             <element signature="e#3215#3224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
           </folding>
         </state>
       </provider>
