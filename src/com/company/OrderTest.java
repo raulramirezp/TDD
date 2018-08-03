@@ -3,7 +3,7 @@ package com.company;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.Collections;
 import java.util.Random;
 
 import static junit.framework.TestCase.assertEquals;
@@ -19,11 +19,11 @@ public class OrderTest {
         this.rand = new Random();
 
         list = new ArrayList<>();
-        for(int i = 0; i < 100; i++)
+        for(int i = 0; i < 1000; i++)
             list.add( rand.nextInt(50) + 1);
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
-        Collection.sort(list);
+        Collections.sort(list);
         assertEquals(list, listNumber.bubbleSort(toSort) );
     }
 
@@ -33,11 +33,11 @@ public class OrderTest {
         this.rand = new Random();
 
          list = new ArrayList<Integer>();
-        for(int i = 0; i < 100; i++)
+        for(int i = 0; i < 1000; i++)
             list.add( (rand.nextInt(50) + 1)*-1);
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
-        Collection.sort(list);
+        Collections.sort(list);
         assertEquals(list, listNumber.bubbleSort(toSort) );
     }
 
@@ -48,11 +48,11 @@ public class OrderTest {
         this.rand = new Random();
 
         list = new ArrayList<Integer>();
-        for(int i = 0; i < 100; i++)
+        for(int i = 0; i < 1000; i++)
             list.add( rand.nextInt(30 + 1 + 10) - 10 );
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
-        Collection.sort(list);
+        Collections.sort(list);
         assertEquals(list, listNumber.bubbleSort(toSort) );
     }
 
@@ -68,7 +68,6 @@ public class OrderTest {
     public void nullArray(){
         this.listNumber = new Order();
         ArrayList<Integer> toSort = null;
-
         assertEquals(null, listNumber.bubbleSort(toSort) );
     }
 
@@ -79,20 +78,9 @@ public class OrderTest {
         list = new ArrayList<>();
         list.add(1);
         ArrayList<Integer> toSort = new ArrayList<>(list);
-
         assertEquals(list, listNumber.bubbleSort(toSort) );
     }
 
-    @Test
-    public void arrayOtherDatatype(){
-        this.listNumber = new Order();
-
-        ArrayList<Character> listChar = new ArrayList<>();
-        listChar.add('a');
-        ArrayList<Character> toSort = new ArrayList<>(listChar);
-
-        assertEquals(null, listNumber.bubbleSort(toSort) );
-    }
 
     @Test
     public void isSorted(){
@@ -100,11 +88,10 @@ public class OrderTest {
         this.rand = new Random();
 
         list = new ArrayList<>();
-        for(int i = 0; i < 100; i++)
+        for(int i = 0; i < 1000; i++)
             list.add(i);
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
-
         assertEquals(list, listNumber.bubbleSort(toSort) );
     }
 
@@ -114,25 +101,12 @@ public class OrderTest {
         this.rand = new Random();
 
         list = new ArrayList<>();
-        for(int i = 0; i < 100; i++)
+        for(int i = 0; i < 1000; i++)
             list.add( rand.nextInt(50) + 1);
 
         ArrayList<Integer> toSort = new ArrayList<Integer>(list);
-        Collection.sort(list);
+        Collections.sort(list);
         assertEquals(list, listNumber.sort(toSort) );
     }
 
-    @Test
-    public void sortInefficientMethod() throws Exception {
-        this.listNumber = new Order();
-        this.rand = new Random();
-
-        list = new ArrayList<>();
-        for(int i = 0; i < 100; i++)
-            list.add( rand.nextInt(50) + 1);
-
-        ArrayList<Integer> toSort = new ArrayList<Integer>(list);
-        Collection.sort(list);
-        assertEquals(list, listNumber.bubbleSort(toSort) );
-    }
 }
