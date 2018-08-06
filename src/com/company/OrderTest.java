@@ -72,6 +72,7 @@ public class OrderTest {
     public void nullArray(){
         this.listNumber = new Order();
         ArrayList<Integer> toSort = null;
+        listNumber.sort(toSort);
         assertEquals(null, toSort );
     }
 
